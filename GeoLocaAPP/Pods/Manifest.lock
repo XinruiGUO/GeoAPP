@@ -1,0 +1,22 @@
+PODS:
+  - GoogleMaps (2.1.1):
+    - GoogleMaps/Maps (= 2.1.1)
+  - GoogleMaps/Base (2.1.1)
+  - GoogleMaps/Maps (2.1.1):
+    - GoogleMaps/Base
+  - PCLBlurEffectAlert (1.1.0)
+  - SwiftKeychainWrapper (3.0.1)
+
+DEPENDENCIES:
+  - GoogleMaps
+  - PCLBlurEffectAlert
+  - SwiftKeychainWrapper
+
+SPEC CHECKSUMS:
+  GoogleMaps: a5b5bbe47734e2443bde781a6aa64e69fdb6d785
+  PCLBlurEffectAlert: cf9fe1d142dad012fe806b96844e2cf72e0bd366
+  SwiftKeychainWrapper: 38952a3636320ae61bad3513cadd870929de7a4a
+
+PODFILE CHECKSUM: 6eadf6cbdae7d5b7b53a6b979f1fb4d758b18663
+
+COCOAPODS: 1.1.1

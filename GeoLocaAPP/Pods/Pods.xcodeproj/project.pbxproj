@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05013D63419B0368E7F47F44C6EE7ABC /* SwiftKeychainWrapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C673332682B26B9650FF2FBD6AB06239 /* SwiftKeychainWrapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10319F81C393F00C9C2848B26A144608 /* PCLBlurEffectAlert+Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC6CED6430F8A2780719BD533F342F1 /* PCLBlurEffectAlert+Controller.swift */; };
+		1CC1BCEBD342E0241BF3C696861F8EB6 /* PCLBlurEffectAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 80B3BF6DE137745763BD4989FF6731E0 /* PCLBlurEffectAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		248A8459A2B950A59D54B7C6C1D425B6 /* PCLBlurEffectAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB2DABDF4FB79F1FCAFF07FFB3BE34A /* PCLBlurEffectAlert.swift */; };
+		29BD252F5AD19D07ED3F556E9858817E /* SwiftKeychainWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = C01D6BB1D06CDA949774423FDFCB080F /* SwiftKeychainWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3068A123C06674DF1AA4A3AAB8A2037F /* PCLBlurEffectAlert-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 090E8A62F65008DF34FD7C63803002CB /* PCLBlurEffectAlert-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30C93CF438FCEA642AE96EDE45E7694A /* Pods-GeoApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA465736A5D641A1E0B5C1095B430FCB /* Pods-GeoApp-dummy.m */; };
+		5D2CB97D38522532F68D36680B1E5574 /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC07FA62DDCD5006ADF43623EA6B24 /* KeychainItemAccessibility.swift */; };
+		741A9D4AC01B0AD261E1A50861C4493C /* PCLBlurEffectAlert+Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03E2947FC06E24D61661F2241F1F6D4 /* PCLBlurEffectAlert+Action.swift */; };
+		825B1AAE0050D08239CD068138EAB083 /* Pods-GeoApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30C0EBDE011B10FD35C53E6CE3F6149E /* Pods-GeoApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8532E037241837CD3A2236644953CA49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		87C74645702F85A6B1AF71C7627EEC00 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		92546902D1940435EA154FC91C3C2BE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		97F3CEDB2B83CA7FD9C8C9397B06A6DA /* SwiftKeychainWrapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16523DF41DEAF087542D6558212A8668 /* SwiftKeychainWrapper-dummy.m */; };
+		DA63AD27E0A9D98A2AA1354B275765D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		DB89B829AC63D435DD11BCBA99A173D8 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AB2AE6E5F0FFCA5C7CCE548A11315D /* KeychainWrapper.swift */; };
+		E2B5882DE179679C7EFEA12BFEF6DB22 /* PCLBlurEffectAlert-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F8450C1FF16402451F8B175A232DB1 /* PCLBlurEffectAlert-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32923AAE2DBCA7912AD2096F3C784196 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0FF8E47F6D79E2DC73FCACB523424F8;
+			remoteInfo = SwiftKeychainWrapper;
+		};
+		E32AB209B8AC34F79EDD20979A82D02D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B0ADCE0D758C7128CD0579759FEF3A4;
+			remoteInfo = PCLBlurEffectAlert;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0107B8BB976B8B91D9119EDD83FCACE8 /* Pods-GeoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeoApp.release.xcconfig"; sourceTree = "<group>"; };
+		0202C25AA8C3C4CFE73B703892B339FE /* SwiftKeychainWrapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftKeychainWrapper.modulemap; sourceTree = "<group>"; };
+		05827B49B7934404D3AFB12F65D47E81 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		090E8A62F65008DF34FD7C63803002CB /* PCLBlurEffectAlert-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PCLBlurEffectAlert-umbrella.h"; sourceTree = "<group>"; };
+		14F8450C1FF16402451F8B175A232DB1 /* PCLBlurEffectAlert-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PCLBlurEffectAlert-dummy.m"; sourceTree = "<group>"; };
+		16523DF41DEAF087542D6558212A8668 /* SwiftKeychainWrapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftKeychainWrapper-dummy.m"; sourceTree = "<group>"; };
+		1B803645A6518190D7C8F7D4E0E53677 /* PCLBlurEffectAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PCLBlurEffectAlert.framework; path = PCLBlurEffectAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20E01182AEC486359536A0E544EA63F6 /* Pods-GeoApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GeoApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		24BEB5D147E6BD3494063E21B5E754B3 /* Pods-GeoApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeoApp-frameworks.sh"; sourceTree = "<group>"; };
+		2B6E229D5E2B24325ADDB603B19D1EC4 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		30C0EBDE011B10FD35C53E6CE3F6149E /* Pods-GeoApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GeoApp-umbrella.h"; sourceTree = "<group>"; };
+		36F4BCFA7B8331F5B014F374A7334567 /* Pods-GeoApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeoApp-resources.sh"; sourceTree = "<group>"; };
+		45BB0E86F06AD4E89E63BD5027717825 /* Pods-GeoApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GeoApp.modulemap"; sourceTree = "<group>"; };
+		479BF397584714017905BA8DF5523CD9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A2E958B74FE8BDF8810E20984459526 /* Pods_GeoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GeoApp.framework; path = "Pods-GeoApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5759E54CB6405919932E3D0C46BEE0CD /* SwiftKeychainWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftKeychainWrapper.framework; path = SwiftKeychainWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E9093201D08D6080D54EC9AFB1B6AD6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6A8C2530BEED9E920C442C9150F0E3D0 /* PCLBlurEffectAlert.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PCLBlurEffectAlert.xcconfig; sourceTree = "<group>"; };
+		6C119865CB671928A9C16FDD9E103928 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		6DBFAB015E563EEDCEF4162C27471050 /* Pods-GeoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		6F5A5C004FFF6A55DA7C3994D5E16478 /* SwiftKeychainWrapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftKeychainWrapper-prefix.pch"; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		80B3BF6DE137745763BD4989FF6731E0 /* PCLBlurEffectAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PCLBlurEffectAlert.h; path = PCLBlurEffectAlert/PCLBlurEffectAlert.h; sourceTree = "<group>"; };
+		908B8C6C991C5B51DA0707320843682A /* Pods-GeoApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GeoApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AEC07FA62DDCD5006ADF43623EA6B24 /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainItemAccessibility.swift; path = SwiftKeychainWrapper/KeychainItemAccessibility.swift; sourceTree = "<group>"; };
+		A42253E98A425D029A7108BE42917DF5 /* SwiftKeychainWrapper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftKeychainWrapper.xcconfig; sourceTree = "<group>"; };
+		AA465736A5D641A1E0B5C1095B430FCB /* Pods-GeoApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GeoApp-dummy.m"; sourceTree = "<group>"; };
+		AB2FEAF76DAC3D10BFAF102827210639 /* PCLBlurEffectAlert.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PCLBlurEffectAlert.modulemap; sourceTree = "<group>"; };
+		C01D6BB1D06CDA949774423FDFCB080F /* SwiftKeychainWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftKeychainWrapper.h; path = SwiftKeychainWrapper/SwiftKeychainWrapper.h; sourceTree = "<group>"; };
+		C673332682B26B9650FF2FBD6AB06239 /* SwiftKeychainWrapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftKeychainWrapper-umbrella.h"; sourceTree = "<group>"; };
+		D03E2947FC06E24D61661F2241F1F6D4 /* PCLBlurEffectAlert+Action.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PCLBlurEffectAlert+Action.swift"; path = "PCLBlurEffectAlert/PCLBlurEffectAlert+Action.swift"; sourceTree = "<group>"; };
+		D1AB2AE6E5F0FFCA5C7CCE548A11315D /* KeychainWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainWrapper.swift; path = SwiftKeychainWrapper/KeychainWrapper.swift; sourceTree = "<group>"; };
+		DA99F866A06799172CD12424C404B80B /* PCLBlurEffectAlert-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PCLBlurEffectAlert-prefix.pch"; sourceTree = "<group>"; };
+		DBC6CED6430F8A2780719BD533F342F1 /* PCLBlurEffectAlert+Controller.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PCLBlurEffectAlert+Controller.swift"; path = "PCLBlurEffectAlert/PCLBlurEffectAlert+Controller.swift"; sourceTree = "<group>"; };
+		E1709D79222497901D7A2624A7D80A75 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAB2DABDF4FB79F1FCAFF07FFB3BE34A /* PCLBlurEffectAlert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PCLBlurEffectAlert.swift; path = PCLBlurEffectAlert/PCLBlurEffectAlert.swift; sourceTree = "<group>"; };
+		EFACCE2CD9FDAE0916EF7826E819FB8D /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C7E7D861A8A1D681AC33B149436D5E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92546902D1940435EA154FC91C3C2BE6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C36345AB2A384624994009DA9353658A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8532E037241837CD3A2236644953CA49 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6BDBE589AE4108080C3D80A22F781D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA63AD27E0A9D98A2AA1354B275765D7 /* Foundation.framework in Frameworks */,
+				87C74645702F85A6B1AF71C7627EEC00 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		396E39CA5374D7CE852FB8F7A7B9BB1E /* Pods-GeoApp */ = {
+			isa = PBXGroup;
+			children = (
+				5E9093201D08D6080D54EC9AFB1B6AD6 /* Info.plist */,
+				45BB0E86F06AD4E89E63BD5027717825 /* Pods-GeoApp.modulemap */,
+				908B8C6C991C5B51DA0707320843682A /* Pods-GeoApp-acknowledgements.markdown */,
+				20E01182AEC486359536A0E544EA63F6 /* Pods-GeoApp-acknowledgements.plist */,
+				AA465736A5D641A1E0B5C1095B430FCB /* Pods-GeoApp-dummy.m */,
+				24BEB5D147E6BD3494063E21B5E754B3 /* Pods-GeoApp-frameworks.sh */,
+				36F4BCFA7B8331F5B014F374A7334567 /* Pods-GeoApp-resources.sh */,
+				30C0EBDE011B10FD35C53E6CE3F6149E /* Pods-GeoApp-umbrella.h */,
+				6DBFAB015E563EEDCEF4162C27471050 /* Pods-GeoApp.debug.xcconfig */,
+				0107B8BB976B8B91D9119EDD83FCACE8 /* Pods-GeoApp.release.xcconfig */,
+			);
+			name = "Pods-GeoApp";
+			path = "Target Support Files/Pods-GeoApp";
+			sourceTree = "<group>";
+		};
+		3A03D60C1CF40CA057ECB4956B28E465 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				FB7643A7AB5C9E2EE185F69A68F6D792 /* Frameworks */,
+				4AF278BA935F8EE0C95367454ABBD642 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		40A8E8B3D13BD32B94762B313FC2AED0 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				7E029C053B2B51884A0126BF6CDDDD8B /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4AF278BA935F8EE0C95367454ABBD642 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6C119865CB671928A9C16FDD9E103928 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		628F50605AEA76E55E8CA0D7A7F2ED7F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				479BF397584714017905BA8DF5523CD9 /* Info.plist */,
+				0202C25AA8C3C4CFE73B703892B339FE /* SwiftKeychainWrapper.modulemap */,
+				A42253E98A425D029A7108BE42917DF5 /* SwiftKeychainWrapper.xcconfig */,
+				16523DF41DEAF087542D6558212A8668 /* SwiftKeychainWrapper-dummy.m */,
+				6F5A5C004FFF6A55DA7C3994D5E16478 /* SwiftKeychainWrapper-prefix.pch */,
+				C673332682B26B9650FF2FBD6AB06239 /* SwiftKeychainWrapper-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftKeychainWrapper";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				BA429A6BBF4C2685EA6D95886EF9B584 /* Pods */,
+				C9635320B5951DBA7806CA9B60A44A94 /* Products */,
+				B6AA9757B7C03004AEACA51D92FA8CBE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E029C053B2B51884A0126BF6CDDDD8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05827B49B7934404D3AFB12F65D47E81 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1B330A9A888C7FF818BD6908AF4A8A1 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				40A8E8B3D13BD32B94762B313FC2AED0 /* Base */,
+				3A03D60C1CF40CA057ECB4956B28E465 /* Maps */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		B6AA9757B7C03004AEACA51D92FA8CBE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				396E39CA5374D7CE852FB8F7A7B9BB1E /* Pods-GeoApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BA429A6BBF4C2685EA6D95886EF9B584 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1B330A9A888C7FF818BD6908AF4A8A1 /* GoogleMaps */,
+				D5B45846C8CF29EBDB6ECC699B2CFABE /* PCLBlurEffectAlert */,
+				F3375AB497792CE59A2C6E363109E7CF /* SwiftKeychainWrapper */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C9635320B5951DBA7806CA9B60A44A94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B803645A6518190D7C8F7D4E0E53677 /* PCLBlurEffectAlert.framework */,
+				4A2E958B74FE8BDF8810E20984459526 /* Pods_GeoApp.framework */,
+				5759E54CB6405919932E3D0C46BEE0CD /* SwiftKeychainWrapper.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4FE691BB836FDF4866D99BF7C0B0C55 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1709D79222497901D7A2624A7D80A75 /* Info.plist */,
+				AB2FEAF76DAC3D10BFAF102827210639 /* PCLBlurEffectAlert.modulemap */,
+				6A8C2530BEED9E920C442C9150F0E3D0 /* PCLBlurEffectAlert.xcconfig */,
+				14F8450C1FF16402451F8B175A232DB1 /* PCLBlurEffectAlert-dummy.m */,
+				DA99F866A06799172CD12424C404B80B /* PCLBlurEffectAlert-prefix.pch */,
+				090E8A62F65008DF34FD7C63803002CB /* PCLBlurEffectAlert-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PCLBlurEffectAlert";
+			sourceTree = "<group>";
+		};
+		D5B45846C8CF29EBDB6ECC699B2CFABE /* PCLBlurEffectAlert */ = {
+			isa = PBXGroup;
+			children = (
+				80B3BF6DE137745763BD4989FF6731E0 /* PCLBlurEffectAlert.h */,
+				EAB2DABDF4FB79F1FCAFF07FFB3BE34A /* PCLBlurEffectAlert.swift */,
+				D03E2947FC06E24D61661F2241F1F6D4 /* PCLBlurEffectAlert+Action.swift */,
+				DBC6CED6430F8A2780719BD533F342F1 /* PCLBlurEffectAlert+Controller.swift */,
+				D4FE691BB836FDF4866D99BF7C0B0C55 /* Support Files */,
+			);
+			name = PCLBlurEffectAlert;
+			path = PCLBlurEffectAlert;
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F3375AB497792CE59A2C6E363109E7CF /* SwiftKeychainWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				9AEC07FA62DDCD5006ADF43623EA6B24 /* KeychainItemAccessibility.swift */,
+				D1AB2AE6E5F0FFCA5C7CCE548A11315D /* KeychainWrapper.swift */,
+				C01D6BB1D06CDA949774423FDFCB080F /* SwiftKeychainWrapper.h */,
+				628F50605AEA76E55E8CA0D7A7F2ED7F /* Support Files */,
+			);
+			name = SwiftKeychainWrapper;
+			path = SwiftKeychainWrapper;
+			sourceTree = "<group>";
+		};
+		FB7643A7AB5C9E2EE185F69A68F6D792 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B6E229D5E2B24325ADDB603B19D1EC4 /* GoogleMaps.framework */,
+				EFACCE2CD9FDAE0916EF7826E819FB8D /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0ABC711F64A6C92F84C5146F96BE38E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05013D63419B0368E7F47F44C6EE7ABC /* SwiftKeychainWrapper-umbrella.h in Headers */,
+				29BD252F5AD19D07ED3F556E9858817E /* SwiftKeychainWrapper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47DBA3B907175CF261FF55DE5154E23B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				825B1AAE0050D08239CD068138EAB083 /* Pods-GeoApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9036CCECF542C828635AE090129A0EE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3068A123C06674DF1AA4A3AAB8A2037F /* PCLBlurEffectAlert-umbrella.h in Headers */,
+				1CC1BCEBD342E0241BF3C696861F8EB6 /* PCLBlurEffectAlert.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5B0ADCE0D758C7128CD0579759FEF3A4 /* PCLBlurEffectAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A189531511365C7353ABD57BC2BDC699 /* Build configuration list for PBXNativeTarget "PCLBlurEffectAlert" */;
+			buildPhases = (
+				C8641F400BA1212AA1F768C403A0C87D /* Sources */,
+				D6BDBE589AE4108080C3D80A22F781D2 /* Frameworks */,
+				9036CCECF542C828635AE090129A0EE9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PCLBlurEffectAlert;
+			productName = PCLBlurEffectAlert;
+			productReference = 1B803645A6518190D7C8F7D4E0E53677 /* PCLBlurEffectAlert.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A0FF8E47F6D79E2DC73FCACB523424F8 /* SwiftKeychainWrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D3BEB5C4E1D225FBA390C3C2A37577E /* Build configuration list for PBXNativeTarget "SwiftKeychainWrapper" */;
+			buildPhases = (
+				CB9CAA23C2CA77E36F8FE2706E48A2D3 /* Sources */,
+				C36345AB2A384624994009DA9353658A /* Frameworks */,
+				0ABC711F64A6C92F84C5146F96BE38E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftKeychainWrapper;
+			productName = SwiftKeychainWrapper;
+			productReference = 5759E54CB6405919932E3D0C46BEE0CD /* SwiftKeychainWrapper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EBA61ADD51263083F0F62FAE91B5CE38 /* Pods-GeoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA6B3D7D0386F3D7603F5C6714C09685 /* Build configuration list for PBXNativeTarget "Pods-GeoApp" */;
+			buildPhases = (
+				B5ED92C7EF13534780A0981CE137FD78 /* Sources */,
+				3C7E7D861A8A1D681AC33B149436D5E4 /* Frameworks */,
+				47DBA3B907175CF261FF55DE5154E23B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D5DD7BDAB2E8DCDB46A6648F4AD9818 /* PBXTargetDependency */,
+				EEC24EF6EC0A052916096033B503515A /* PBXTargetDependency */,
+			);
+			name = "Pods-GeoApp";
+			productName = "Pods-GeoApp";
+			productReference = 4A2E958B74FE8BDF8810E20984459526 /* Pods_GeoApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C9635320B5951DBA7806CA9B60A44A94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B0ADCE0D758C7128CD0579759FEF3A4 /* PCLBlurEffectAlert */,
+				EBA61ADD51263083F0F62FAE91B5CE38 /* Pods-GeoApp */,
+				A0FF8E47F6D79E2DC73FCACB523424F8 /* SwiftKeychainWrapper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5ED92C7EF13534780A0981CE137FD78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30C93CF438FCEA642AE96EDE45E7694A /* Pods-GeoApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8641F400BA1212AA1F768C403A0C87D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741A9D4AC01B0AD261E1A50861C4493C /* PCLBlurEffectAlert+Action.swift in Sources */,
+				10319F81C393F00C9C2848B26A144608 /* PCLBlurEffectAlert+Controller.swift in Sources */,
+				E2B5882DE179679C7EFEA12BFEF6DB22 /* PCLBlurEffectAlert-dummy.m in Sources */,
+				248A8459A2B950A59D54B7C6C1D425B6 /* PCLBlurEffectAlert.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB9CAA23C2CA77E36F8FE2706E48A2D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D2CB97D38522532F68D36680B1E5574 /* KeychainItemAccessibility.swift in Sources */,
+				DB89B829AC63D435DD11BCBA99A173D8 /* KeychainWrapper.swift in Sources */,
+				97F3CEDB2B83CA7FD9C8C9397B06A6DA /* SwiftKeychainWrapper-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D5DD7BDAB2E8DCDB46A6648F4AD9818 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PCLBlurEffectAlert;
+			target = 5B0ADCE0D758C7128CD0579759FEF3A4 /* PCLBlurEffectAlert */;
+			targetProxy = E32AB209B8AC34F79EDD20979A82D02D /* PBXContainerItemProxy */;
+		};
+		EEC24EF6EC0A052916096033B503515A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftKeychainWrapper;
+			target = A0FF8E47F6D79E2DC73FCACB523424F8 /* SwiftKeychainWrapper */;
+			targetProxy = 32923AAE2DBCA7912AD2096F3C784196 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2658D9653847A96D4B8EE02652CD5BFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0107B8BB976B8B91D9119EDD83FCACE8 /* Pods-GeoApp.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GeoApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GeoApp/Pods-GeoApp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GeoApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3D61F1E6C3C1D3E2C802F58579222F3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A8C2530BEED9E920C442C9150F0E3D0 /* PCLBlurEffectAlert.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PCLBlurEffectAlert/PCLBlurEffectAlert-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PCLBlurEffectAlert/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PCLBlurEffectAlert/PCLBlurEffectAlert.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PCLBlurEffectAlert;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		759F81B8153B030D1AF1BAE43DECA4BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DBFAB015E563EEDCEF4162C27471050 /* Pods-GeoApp.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GeoApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GeoApp/Pods-GeoApp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GeoApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		837ED98EE973E7C8789B319DE0848B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A8C2530BEED9E920C442C9150F0E3D0 /* PCLBlurEffectAlert.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PCLBlurEffectAlert/PCLBlurEffectAlert-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PCLBlurEffectAlert/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PCLBlurEffectAlert/PCLBlurEffectAlert.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PCLBlurEffectAlert;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A435E3C35B2666C25C53422D898980A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B4283102D1DB9F127166ACCC0AA4DE14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A42253E98A425D029A7108BE42917DF5 /* SwiftKeychainWrapper.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftKeychainWrapper/SwiftKeychainWrapper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftKeychainWrapper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftKeychainWrapper/SwiftKeychainWrapper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftKeychainWrapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F2C4F47FC8AD76198661C5EFDE751899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFFFEE6CBED6B31112C1A4949324889F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A42253E98A425D029A7108BE42917DF5 /* SwiftKeychainWrapper.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftKeychainWrapper/SwiftKeychainWrapper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftKeychainWrapper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftKeychainWrapper/SwiftKeychainWrapper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftKeychainWrapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A435E3C35B2666C25C53422D898980A7 /* Debug */,
+				F2C4F47FC8AD76198661C5EFDE751899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D3BEB5C4E1D225FBA390C3C2A37577E /* Build configuration list for PBXNativeTarget "SwiftKeychainWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4283102D1DB9F127166ACCC0AA4DE14 /* Debug */,
+				FFFFEE6CBED6B31112C1A4949324889F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A189531511365C7353ABD57BC2BDC699 /* Build configuration list for PBXNativeTarget "PCLBlurEffectAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D61F1E6C3C1D3E2C802F58579222F3D /* Debug */,
+				837ED98EE973E7C8789B319DE0848B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA6B3D7D0386F3D7603F5C6714C09685 /* Build configuration list for PBXNativeTarget "Pods-GeoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				759F81B8153B030D1AF1BAE43DECA4BD /* Debug */,
+				2658D9653847A96D4B8EE02652CD5BFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

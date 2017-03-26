@@ -1,0 +1,10 @@
+framework module locatme {
+  umbrella header "locatme.h"
+
+  export *
+  module * { export * }
+}
+
+module locatme.Swift {
+    header "locatme-Swift.h"
+}
